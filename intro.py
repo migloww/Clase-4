@@ -21,6 +21,13 @@ with col1:
   if resp:
     st.write("correcto!")
 
-
-
+with col2:
+  st.subheader("esta es la segunda columna")
+  modo = st.radio("cuales son las similitudes?",("la ropa", "esta dormido","ninguna"))
+  if modo == "la ropa":
+    st.write("probablemente no")
+  if modo == "esta dormido":
+    st.write("¡correcto!")
+  if modo == "ninguna":
+    st.write("pero si son iguales")
 
