@@ -16,7 +16,7 @@ col1, col2 = st.columns(2)
 
 with col1:
   st.subheader("esta es la primera columna")
-  st.write("las interfaces multimodales mejoran la experiencia de usuario")
+  st.write("Pedro se parece a este sujeto?")
   resp = st.checkbox("estoy de acuerdo")
   if resp:
     st.write("correcto!")
