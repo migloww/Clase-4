@@ -7,3 +7,5 @@ st.header("pedro tenia que venir a clase pero probablemente se quedo dormido pro
 image = Image.open("images.jpg")
 st.image(image, caption="lil yachty")
 
+texto = st.text_input("Podemos decir que hay muchas similitudes entre pedro y lil yatchy")
+st.write("podriamos enumeraarlas pero nunca terminariamos")
