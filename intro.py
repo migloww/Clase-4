@@ -31,3 +31,10 @@ with col2:
   if modo == "ninguna":
     st.write("pero si son iguales")
 
+with st.sidebar:
+  st.subheader("configura la modalidad")
+  mod_radio = st.radio(
+    "escoge la modalidad de uso",
+    ("la ropa", "esta dormido","ninguna")
+  )
+
